@@ -1,13 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-
-var HelloWorld = React.createClass ({
-  render: function () {
-    return (
-      <div>Hello Hello</div>
-    )
-  }
-})
+var routes = require('./config/routes');
 
 
-ReactDOM.render(<HelloWorld />, document.getElementById('app'))
+
+ReactDOM.render(routes, document.getElementById('app'))
