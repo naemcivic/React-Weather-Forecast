@@ -1,0 +1,19 @@
+{
+  "name": "react-weather-forecast",
+  "version": "1.0.0",
+  "description": "Weather Forecast develop on ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naemcivic/React-Weather-Forecast.git"
+  },
+  "author": "Philip Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naemcivic/React-Weather-Forecast/issues"
+  },
+  "homepage": "https://github.com/naemcivic/React-Weather-Forecast#readme"
+}
