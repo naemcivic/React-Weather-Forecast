@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/naemcivic/React-Weather-Forecast/issues"
   },
-  "homepage": "https://github.com/naemcivic/React-Weather-Forecast#readme"
+  "homepage": "https://github.com/naemcivic/React-Weather-Forecast#readme",
+  "dependencies": {
+    "axios": "^0.9.1",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-router": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.15.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
