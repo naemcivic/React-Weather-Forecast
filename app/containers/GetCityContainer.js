@@ -2,12 +2,12 @@ var React = require('react');
 var PropTypes = React.PropTypes;
 var GetCity = require('../components/GetCity');
 
-var GetCityContainer = React.createClass ({
+var GetCityContainer = React.createClass({
   getDefaultProps: function () {
-      return  {
-        direction: 'column'
-      }
-    },
+    return {
+      direction: 'column'
+    }
+  },
   propTypes: {
     direction: PropTypes.string
   },
