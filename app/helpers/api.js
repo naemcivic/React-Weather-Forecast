@@ -4,8 +4,6 @@ var _APIKEY = '4ef8cb52c1b5e85aaee7c7c1571297a4';
 var _baseURL = 'http://api.openweathermap.org/data/2.5/';
 
 
-
-
 function getCurrentWeather (city) {
   return axios.get( _baseURL + 'weather?q='+ city + '&type=accurate&APPID=' + _APIKEY)
   .then(function (currentWeatherData){
