@@ -21,7 +21,7 @@ var Main = React.createClass ({
     return (
       <div style={styles.container}>
         <div style={styles.header}>
-          <h2 style={{margin: 0}}>Your # 1 source for weather in this place call the 'Global Village'</h2>
+          <h2 style={{margin: 0}}>Your # 1 source for weather in the 'Global Village'</h2>
           <GetCityContainer direction='row' />
         </div>
           {this.props.children}
