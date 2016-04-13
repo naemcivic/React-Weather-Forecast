@@ -19,7 +19,7 @@ global space called the "Global Village".
 
 
 **Please obtain API key from OpenWeatherMap and insert the key into variable defined as _APIKEY int the api.js file
-located in the /app/helpers folder.
+located in the /app/helpers folder.**
 
 * Setting up this app
   * Clone repository
