@@ -1,8 +1,6 @@
 var React = require('react');
 var PropTypes = React.PropTypes;
 var GetCity = require('../components/GetCity');
-var getCurrentWeather = require('../helpers/api').getCurrentWeather;
-
 
 var GetCityContainer = React.createClass({
   contextTypes: {
