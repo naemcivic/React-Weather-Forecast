@@ -17,10 +17,12 @@ global space called the "Global Village".
   * Promise
   * Axios
 
-  * Setting up this app
-    **Please obtain API key from OpenWeatherMap and insert the key into variable defined as _APIKEY int the api.js file
-    located in the /app/helpers folder.
-    * Clone repository
-    * run 'npm install'
-    * start server by 'npm run start'
-    * enter localhost:8080 in browser
+
+**Please obtain API key from OpenWeatherMap and insert the key into variable defined as _APIKEY int the api.js file
+located in the /app/helpers folder.
+
+* Setting up this app
+  * Clone repository
+  * run 'npm install'
+  * start server by 'npm run start'
+  * enter localhost:8080 in browser
