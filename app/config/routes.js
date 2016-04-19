@@ -1,11 +1,7 @@
-var React = require('react');
-var ReactRouter = require('react-router');
-var Router = ReactRouter.Router;
-var Route = ReactRouter.Route;
-var hashHistory = ReactRouter.hashHistory;
-var IndexRoute = ReactRouter.IndexRoute;
+import React from 'react';
+import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 var Main = require('../containers/Main');
-var HomeContainer = require('../containers/HomeContainer');
+import HomeContainer from '../containers/HomeContainer';
 import ForecastContainer from '../containers/ForecastContainer';
 import DetailContainer from '../containers/DetailContainer';
 
