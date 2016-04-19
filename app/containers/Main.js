@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import GetCityContainer from './GetCityContainer'
 
 var styles = {
@@ -16,8 +16,8 @@ var styles = {
   }
 }
 
-var Main = React.createClass ({
-  render: function () {
+class Main extends Component {
+  render() {
     return (
       <div style={styles.container}>
         <div style={styles.header}>
@@ -28,6 +28,6 @@ var Main = React.createClass ({
       </div>
     )
   }
-})
+}
 
-module.exports = Main;
+export default Main
