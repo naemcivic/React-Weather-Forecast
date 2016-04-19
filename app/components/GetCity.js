@@ -1,31 +1,31 @@
 import React, { PropTypes } from 'react';
 
-function Button (props) {
+function Button ( { onSubmitCity, children } ) {
   return (
     <button type='button'
       style={{margin: 10}}
       className='btn btn-success'
-      onClick={props.onSubmitCity}>
-        {props.children}
+      onClick={onSubmitCity}>
+        {children}
     </button>
   )
 }
 
-function InputField (props) {
+function InputField ( { onUpdateCity, city } ) {
   return (
     <input
       className='form-control'
-      onChange={props.onUpdateCity}
+      onChange={onUpdateCity}
       placeholder='Toronto, ON'
       type='text'
-      value={props.city} />
+      value={city} />
   )
 }
 
-function getStyles (props) {
+function getStyles ( { direction } ) {
   return {
     display: 'flex',
-    flexDirection: props.direction || 'column',
+    flexDirection: direction || 'column',
     justifyContent: 'center',
     alignItems: 'center',
     maxWidth: 300,
