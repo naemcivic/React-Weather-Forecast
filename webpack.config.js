@@ -1,5 +1,5 @@
-var htmlWebpackPlugin = require('html-webpack-plugin');
-var HTMLWebpackPluginConfig = new htmlWebpackPlugin ({
+const htmlWebpackPlugin = require('html-webpack-plugin');
+const HTMLWebpackPluginConfig = new htmlWebpackPlugin ({
   template: __dirname + '/app/index.html',
   filename: 'index.html',
   inject: 'body'

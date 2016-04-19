@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import GetCityContainer from './GetCityContainer'
 
-var styles = {
+const styles = {
   container: {
     width: '100%',
     height: '92%'
