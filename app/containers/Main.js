@@ -1,5 +1,5 @@
-var React = require('react');
-var GetCityContainer = require('./GetCityContainer');
+import React from 'react'
+import GetCityContainer from './GetCityContainer'
 
 var styles = {
   container: {

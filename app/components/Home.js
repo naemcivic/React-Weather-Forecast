@@ -1,6 +1,5 @@
-var React = require('react');
-var PropTypes = React.PropTypes;
-var GetCityContainer = require('../containers/GetCityContainer');
+import React, { PropTypes } from 'react'
+import GetCityContainer from '../containers/GetCityContainer'
 
 var styles = {
   container: {
