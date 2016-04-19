@@ -28,4 +28,4 @@ function Home (props) {
   )
 }
 
-module.exports = Home;
+export default Home
