@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Forecast from '../components/Forecast';
-var getForecast = require('../helpers/api').getForecast;
+import { getForecast } from '../helpers/api'
 
 class ForecastContainer extends Component {
   constructor () {
