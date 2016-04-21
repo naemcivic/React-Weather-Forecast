@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react';
-const utils = require('../helpers/utils');
-const getDate = utils.getDate;
+import utils, { getDate } from '../helpers/utils';
 
 const styles = {
   dayContainer: {
